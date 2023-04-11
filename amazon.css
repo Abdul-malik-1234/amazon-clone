@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    background-image:linear-gradient(to left,blue,violet,pink) ;
+}
+/* navigationbar */
+ul{
+    background-color: rgba(0, 0, 0, 0.889);
+    margin:0;
+    list-style-type: none;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* min-width:30rem; */
+    /* width: calc(1rem+0.5vw); */
+}
+li{
+    color:white;
+    font-weight:bold;
+    padding: 0.5rem;
+    font-size: 2rem;
+}
+input{
+    height: 2rem;
+    min-width: 30rem;
+}
+#logo{
+    margin: 0rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+}
+span{
+    font-size: 1rem;
+}
+/* first-card */
+.card-1{
+    box-shadow: 0.5rem 0.5rem  rgba(0, 0, 0, 0.773);
+    margin: 2rem;   
+    background-color:whitesmoke;
+    max-width: 18rem;
+    display: flex;  
+    flex-wrap: wrap;
+    gap:0.5rem;
+}
+h1#brands{
+    height:3rem;
+    margin-left:2rem;
+    margin-bottom: 2rem;
+}
+img{
+    width:7rem;
+    height:4.5rem; 
+}
+div#lunch-box{
+    align-items:center;
+    justify-content: center;
+    margin-left:2rem;
+    margin-top:2rem;
+}
+div#lamps{
+    margin-top:2rem;
+    justify-content: flex-end;
+}
+p{
+    font-size: 0.8rem;
+}
+div#bedsheets{
+    margin-left: 2rem;
+}
+div#photos{
+    justify-content: flex-end;
+}
+@media  (min-width:320px) and (max-width:480px){
+    li{
+        font-size: 0.2rem;
+    }
+}
